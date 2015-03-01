@@ -1,0 +1,37 @@
+
+/* MADE BY BRADY GUNTER, OPEN SOURCE */
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: darkred;
+}
+
+#text-editor-container {
+	width: 800px;
+	height: 97.5%;
+
+    position: fixed;
+    top: 10px;
+    left: 30%;
+
+    border: solid black 3px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.55);
+}
+
+.in-focus #main-input {
+	width: 99.1%;
+	height: 99.2%;
+
+	background-color: white;
+
+	border-radius: 2px;
+
+	padding-left: 0;
+	padding-top: 0;
+	padding-right: 0.4em;
+	padding-bottom: 0.4em;
+}
