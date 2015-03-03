@@ -5,9 +5,11 @@
 		<title>Web Text Editor!</title>
 
 		<link type="text/css" rel="stylesheet" href="Stylesheets/main.css" />
+		<link type="text/css" rel="stylesheet" href="Stylesheets/download-menu.css"
 
-		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="Javascript/settings.js"></script>
+		<script src="Javascript/download.js"></script>
 	</head>
 
 	<body>
@@ -17,8 +19,16 @@
 			<textarea class="in-focus" id="main-input"></textarea>
 		</div>
 
-		<button id="download-button">Download Text</button>
-		<p id="information">When you press "Download Text" and it looks messed up at first, don't worry; it fixes <br/> itself after you download it.</p>
+		<div class="download-menu" id="download-menu-container">
+			<button class="download-menu" id="download-menu-button">Download Text</button>
+
+			<p class="download-menu" id="download-menu-information">When you press "Download Text" and it looks messed up at first, don't worry; it fixes
+			    <br/> itself after you download it.</p>
+		</div>
+
+		<div class="options" id="options-container">
+			<!--DO THIS TOMORROW-->
+		</div>
 
 	</div>
 	</body>
